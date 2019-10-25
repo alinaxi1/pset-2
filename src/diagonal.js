@@ -1,5 +1,5 @@
 const readlineSync = require("readline-sync");
-const width = readlineSync.question("Width: ");
+const width = readlineSync.question("\nWidth: ");
 const length = readlineSync. question("Length: ");
 const added = (width * width) + (length * length);
 const sqrt = Math.sqrt(added);

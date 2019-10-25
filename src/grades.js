@@ -1,5 +1,5 @@
 const readlineSync = require("readline-sync");
-const hw1 = Number(readlineSync.question("Enter three homework grades.\n"));
+const hw1 = Number(readlineSync.question("\nEnter three homework grades.\n"));
 const hw2 = Number(readlineSync.question(""));
 const hw3 = Number(readlineSync.question(""));
 const hw = (hw1 + hw2 + hw3) / 3;

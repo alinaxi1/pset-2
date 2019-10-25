@@ -1,5 +1,5 @@
 const readlineSync = require("readline-sync");
-const width = readlineSync.question("Width: ");
+const width = readlineSync.question("\nWidth: ");
 const length = readlineSync. question("Length: ");
 const inches = (width * length);
 const millimeters = (inches * 25.4 * 25.4);

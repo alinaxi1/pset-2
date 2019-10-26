@@ -11,4 +11,4 @@ const pay = pretax - (federal + state + security + medicare);
 const payday = pay / 24;
 const format = payday.toLocaleString("en", { style: "currency", currency: "USD" });
 
-console.log("Your take-home pay each check will be " + format + ".");
+console.log("\nYour take-home pay each check will be " + format + ".");
